@@ -1,0 +1,91 @@
+body{
+  background-color: cyan;
+}
+
+.cuadros {
+  height: 50px;
+  width: 70px;
+  background-color: white;
+  margin: 20px;
+}
+
+.cuadros:hover {
+  opacity: 50%;
+  rotate:
+}
+
+p{
+  font-family: ShadowsIntoLight;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 50px;
+}
+@font-face {
+font-family: ShadowsIntoLight;
+src: url(ShadowsIntoLight.ttf);
+}
+
+#uno {
+  background-color: green;
+}
+
+#dos {
+  background-color: lightblue;
+}
+
+#tres {
+  background-color: lightsalmon;
+}
+
+#cuatro {
+  background-color: lightgreen;
+}
+
+#cuadrodiferente{
+  background-color: lightgrey;
+  width: 400px;
+  height: 400px;
+  float: inline-start;
+}
+
+#titulo{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke; white 3px;
+}
+
+#contenido{
+  background-color: green;
+  height: 2000px;
+  width: 700px;
+  font-family: cursive;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 525px){
+  body {
+    background-color: lightgreen;}
+}
+
+@media screen and (min-width: 700px){
+  body {
+    background-color: lightsalmon;}
+}
+
+.cuadros: {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin: 20px;
+  transition: 1s;
+  float: left;
+}
+.cuadros:hover {
+  opacity: 50%;
+  transform: rotate(360deg);
+}

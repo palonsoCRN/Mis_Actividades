@@ -1,0 +1,38 @@
+body{
+  height: 1000px;
+  width: 100%;
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+}
+
+p{
+  margin-left: 70px;
+  line-height: 150px;
+  font-style: oblique;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.cabecera{
+  height: 100px;
+  width: 100%;
+  background-color: green;
+  margin-top:-50px;
+  margin-left: -10px;
+  text-align: center;
+  line-height: 100px;
+}
+
+#cajas{
+ height: 1000px;
+ width: 100%;
+ margin-left: 100px;
+}
+.Actividades{
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  margin-top: 100px;
+  margin-left: 80px;
+  display: inline-flex;
+}

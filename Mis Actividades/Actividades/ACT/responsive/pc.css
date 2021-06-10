@@ -1,0 +1,16 @@
+  body {
+    background-color: green;}
+}
+
+.cuadros {
+  height: 50px;
+  width: 70px;
+  background-color: white;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1300px){
+  body {
+    background-color: blue;}
+}
+.clip-path: polygon(67% 22%, 67% 19%, 41% 19%, 9% 71%, 13% 71%, 43% 22%);
