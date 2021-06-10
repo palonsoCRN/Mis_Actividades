@@ -1,0 +1,44 @@
+body{
+    background-image: url(fondo_chill.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+header{
+  background-color: lightblue;
+  display: block;
+  height: 75px;
+  width: 2000px;
+}
+.centro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+h1{
+  text-align: center;
+}
+
+#formulario{
+  height: 400px;
+  width: 400px;
+  margin-left: 650px;
+  margin-top: 300px;
+}
+
+.cajitas{
+  width: 200px;
+  margin-right: 750px;
+  margin-top: 30px;
+  background-color: lightblue;
+  align-items: center;
+}
+
+.cajitas,placeholder{
+  font-family: cursive;
+}
+
+::-webkit-input-placeholder{
+}
